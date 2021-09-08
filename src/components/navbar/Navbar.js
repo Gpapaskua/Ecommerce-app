@@ -10,8 +10,8 @@ export const Navbar = () => {
         <span className="navbar-toggler-icon" onClick={() => {showNavbar.current.classList.toggle('show')}}></span>
       </button>
     
-      <div className="collapse navbar-collapse mx-auto" ref={showNavbar} id="navbarSupportedContent">
-        <ul className="navbar-nav ml-5">
+      <div className="container-sm collapse navbar-collapse" ref={showNavbar} id="navbarSupportedContent">
+        <ul className="navbar-nav">
           <li className="nav-item active">
             <a className="nav-link" href="#">HOME</a>
           </li>
@@ -44,7 +44,7 @@ export const Navbar = () => {
             </div>
           </li>
         </ul>
-        <div className="navbar-nav mx-auto">
+        <div className="navbar-nav">
         <li className="nav-item dropdown">
             <span className="nav-link dropdown-toggle" onClick={() => {userOptionRef.current.classList.toggle('show')}}
              id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
