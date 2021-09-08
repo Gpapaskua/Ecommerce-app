@@ -45,4 +45,14 @@ code {
 
 .option-icons{
   border: 1px solid #FF6F61;
+  object-fit: contain;
+  
+}
+
+.option-icons svg{
+  vertical-align: baseline;
+}
+
+.offer-icons{
+  color: #FF6F61;
 }
