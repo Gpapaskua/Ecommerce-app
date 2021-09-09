@@ -1,0 +1,32 @@
+.slider{
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+}
+
+.slider-images{
+    display: flex;
+    gap: 1rem;
+    transform: translate3d(0px, 0px, 0px);
+    transition: all 0.3s ease-in 0s;
+}
+
+.recent-image{
+    width: 280px;
+    background-color: brown;
+}
+
+.arrows{
+    border-color: #FF6F61 !important;
+}
+.arrows svg{
+    pointer-events: none;
+}
+.arrows svg polygon{
+    fill: #FF6F61 !important;
+}
+
+.recent-image img{
+   width: 100%;
+}

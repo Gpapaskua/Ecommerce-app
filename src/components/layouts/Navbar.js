@@ -1,6 +1,7 @@
 import React, {useRef} from 'react'
+import { NavLink } from 'react-router-dom'
 
-export const Navbar = () => {
+const Navbar = () => {
   const pagesRef = useRef()
   const userOptionRef = useRef()
   const showNavbar = useRef()
@@ -13,7 +14,7 @@ export const Navbar = () => {
       <div className="container-sm collapse navbar-collapse" ref={showNavbar} id="navbarSupportedContent">
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="#">HOME</a>
+            <NavLink  className="nav-link" to="/">HOME</NavLink>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">PRODUCTS</a>
@@ -62,3 +63,5 @@ export const Navbar = () => {
     </nav>
     )
 }
+
+export default Navbar

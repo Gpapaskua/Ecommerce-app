@@ -2,7 +2,7 @@ import React from 'react'
 import {FaShoppingCart} from 'react-icons/fa'
 import {BsFillHeartFill} from 'react-icons/bs'
 
-export const Header = () => {
+const Header = () => {
     return (
         <div className='container d-flex flex-lg-row flex-column
          justify-content-lg-between justify-content-center align-items-center'>
@@ -21,3 +21,5 @@ export const Header = () => {
         </div>
     )
 }
+
+export default Header

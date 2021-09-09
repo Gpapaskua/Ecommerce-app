@@ -5,7 +5,7 @@ import {FaShoppingBag, FaPlusSquare, FaBaby} from 'react-icons/fa'
 import { BsPhone } from 'react-icons/bs'
 import { GiClothes } from 'react-icons/gi'
 
-export const Categories = () => {
+const Categories = () => {
     return (
         <div className='container-fluid bg-light'>
             <div className='container'>
@@ -47,3 +47,5 @@ export const Categories = () => {
             
     )
 }
+
+export default Categories

@@ -1,15 +1,17 @@
-import { Categories } from "./components/Categories";
-import { Header } from "./components/Header";
-import { Navbar } from "./components/navbar/Navbar";
-import { Offers } from "./components/Offers.jsx";
+import { Route, Switch } from "react-router";
+import Navbar from "./components/layouts/Navbar";
+import About from "./components/view/about/About";
+import Home from "./components/view/home/Home";
+
 
 const App = () => {
   return (
     <>
-     <Navbar /> 
-     <Header /> 
-     <Categories />
-     <Offers />
+    <Navbar />
+    <Switch>
+      <Route exact path='/' component={Home}/>
+      <Route path='/about' component={About}/>
+    </Switch>
     </>
   );
 }

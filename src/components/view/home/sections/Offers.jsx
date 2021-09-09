@@ -3,7 +3,7 @@ import { BsArrowRepeat } from 'react-icons/bs'
 import { FaCcMastercard, FaTruck } from 'react-icons/fa'
 import {IoIosChatbubbles} from 'react-icons/io'
 
-export const Offers = () => {
+const Offers = () => {
     return (
         <section className='container-fluid bg-dark my-4'>
             <article className='container d-flex justify-content-evenly py-4' style={{gap: '1rem'}}>
@@ -32,3 +32,5 @@ export const Offers = () => {
         </section>
     )
 }
+
+export default Offers
