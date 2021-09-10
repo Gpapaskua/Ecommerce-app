@@ -15,34 +15,34 @@ const Contact = () => {
             <div className="col-lg-3 col-md-6 d-flex flex-column">
                 <p className="h3 my-2 font-weight-bold">Follow Us</p>
                     <div className="d-flex my-2">
-                        <span className="contact-icons border border-dark rounded px-2 py-1">
+                        <span className="contact-icons mx-1 border border-dark rounded px-2 py-1">
                             <FaFacebookF/>
                         </span>
-                        <span className="contact-icons border border-dark rounded px-2 py-1">
+                        <span className="contact-icons mx-1 border border-dark rounded px-2 py-1">
                             <FaTwitter/>
                         </span>
-                        <span className="contact-icons border border-dark rounded px-2 py-1">
+                        <span className="contact-icons mx-1 border border-dark rounded px-2 py-1">
                             <FaInstagram/>
                         </span>
-                        <span className="contact-icons border border-dark rounded px-2 py-1">
+                        <span className="contact-icons mx-1 border border-dark rounded px-2 py-1">
                             <FaLinkedin/>
                         </span>
-                        <span className="contact-icons border border-dark rounded px-2 py-1">
+                        <span className="contact-icons mx-1 border border-dark rounded px-2 py-1">
                             <FaYoutube/>
                          </span>
                     </div>      
             </div>
             <div className="col-lg-3 col-md-6  d-flex flex-column">
-                <p className='h3 font-weight-bold my-2'>Company Info</p> 
-                <a className='my-1'>About Us</a>
-                <a className='my-1'>Privacy Police</a>
-                <a className='my-1'>Terms & Conditions</a>
+                <p href='/' className='h3 font-weight-bold my-2'>Company Info</p> 
+                <a href='/' className='my-1'>About Us</a>
+                <a href='/' className='my-1'>Privacy Police</a>
+                <a href='/' className='my-1'>Terms & Conditions</a>
             </div>
             <div className="col-lg-3 col-md-6 d-flex flex-column">
                 <p className='h3 font-weight-bold my-2'>Purchase Info</p> 
-                <a className='my-2'>Payment Policy</a>
-                <a className='my-1'>Shopping Pollicy</a>
-                <a className='my-1'>Return Policy</a>
+                <a href='/' className='my-2'>Payment Policy</a>
+                <a href='/' className='my-1'>Shopping Pollicy</a>
+                <a href='/' className='my-1'>Return Policy</a>
             </div>      
             </div>
             </div>

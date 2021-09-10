@@ -1,7 +1,7 @@
 import { Route, Switch } from "react-router";
 import Navbar from "./components/layouts/Navbar";
-import About from "./components/view/about/About";
-import Home from "./components/view/home/Home";
+import About from "./view/about/About";
+import Home from "./view/home/Home";
 
 
 const App = () => {

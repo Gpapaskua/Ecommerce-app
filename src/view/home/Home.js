@@ -1,10 +1,9 @@
 import React from 'react'
-import  Navbar  from '../../layouts/Navbar'
-import  Header  from '../../layouts/Header'
-import  Categories  from '../../layouts/Categories'
-import  Offers from '../home/sections/Offers'
-import  RecentProducts from '../home/sections/RecentProducts'
+import  Header  from '../../components/layouts/Header'
+import  Categories  from '../../components/layouts/Categories'
+import  Offers from './sections/Offers'
 import  Contact from '../home/sections/Contact'
+import Slider from './slider/Slider'
 
 const Home = () => {
     
@@ -13,7 +12,7 @@ const Home = () => {
             <Header /> 
             <Categories />
             <Offers />
-            <RecentProducts />
+            <Slider />
             <Contact /> 
         </div>
     )

@@ -7,7 +7,7 @@ const Navbar = () => {
   const showNavbar = useRef()
     return (
       <nav className="navbar navbar-expand-lg navbar-dark nav-color">
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" onClick={() => {showNavbar.current.classList.toggle('show')}}></span>
       </button>
     
@@ -17,19 +17,19 @@ const Navbar = () => {
             <NavLink  className="nav-link" to="/">HOME</NavLink>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">PRODUCTS</a>
+            <a className="nav-link" href="/">PRODUCTS</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">PRODUCT DETAIL</a>
+            <a className="nav-link" href="/">PRODUCT DETAIL</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">CART</a>
+            <a className="nav-link" href="/">CART</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">CHECKOUT</a>
+            <a className="nav-link" href="/">CHECKOUT</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">MY ACCOUNT</a>
+            <a className="nav-link" href="/">MY ACCOUNT</a>
           </li>
           <li className="nav-item dropdown">
             <span className="nav-link dropdown-toggle" 
@@ -38,10 +38,10 @@ const Navbar = () => {
               More Pages
             </span>
             <div className="dropdown-menu" ref={pagesRef} aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">Action</a>
-              <a className="dropdown-item" href="#">Another action</a>
+              <a className="dropdown-item" href="/">Action</a>
+              <a className="dropdown-item" href="/">Another action</a>
               <div className="dropdown-divider"></div>
-              <a className="dropdown-item" href="#">Something else here</a>
+              <a className="dropdown-item" href="/">Something else here</a>
             </div>
           </li>
         </ul>
@@ -52,10 +52,10 @@ const Navbar = () => {
               User Account
             </span>
             <div className="dropdown-menu" ref={userOptionRef} aria-labelledby="navbarDropdown">
-              <a className="dropdown-item" href="#">Action</a>
-              <a className="dropdown-item" href="#">Another action</a>
+              <a className="dropdown-item" href="/">Action</a>
+              <a className="dropdown-item" href="/">Another action</a>
               <div className="dropdown-divider"></div>
-              <a className="dropdown-item" href="#">Something else here</a>
+              <a className="dropdown-item" href="/">Something else here</a>
             </div>
           </li>
         </div>
