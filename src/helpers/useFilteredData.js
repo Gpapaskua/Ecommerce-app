@@ -5,7 +5,7 @@ export const useFilteredData = ( filterParam, data) => {
             return filtered
         }
         if(filterParam === 'popular' && data){
-            let filtered = data.sort((a, b) => a.rating.rate - b.rating.rate)
+            let filtered = data.sort((a, b) => a.rating.rate - b.rating.rate).reverse()
             return filtered
         }
         return data

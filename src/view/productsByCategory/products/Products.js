@@ -5,16 +5,20 @@ import { AiFillStar } from 'react-icons/ai'
 import { FaCartPlus } from 'react-icons/fa'
 
 const Products = ({prod}) => {
+    const rate = Math.round(prod.rating?.rate) //round rate number
     return (
         <div className='col-md-5 recent-image'>
             <div className='product-top'>
                 <p>{prod.title}</p>
                 <div className="ratings"> 
-                    <AiFillStar className='rating-icons' />
-                    <AiFillStar className='rating-icons' />
-                    <AiFillStar className='rating-icons' />
-                    <AiFillStar className='rating-icons' />
-                    <AiFillStar className='rating-icons' />
+                {
+                     
+                     Array.from({length: 5}, (item, index) => {
+                        return index < rate ? <span className="rating-icons green" key={index}><AiFillStar /></span>
+                        : <span className="rating-icons" key={index}><AiFillStar /></span>
+                     }  
+                  )
+                }
                 </div>
                 </div>
             <div className='product-image'>
