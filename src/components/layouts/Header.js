@@ -14,7 +14,7 @@ const Header = () => {
     </form>
         <div className='my-lg-0 my-2'>
         <span className='option-icons mx-2 p-2 rounded'>
-                <BsFillHeartFill/>(0)</span>
+                <BsFillHeartFill/> (0)</span>
             <span className='option-icons mx-2 p-2 rounded'>
                 <FaShoppingCart /> (0)</span>
         </div>

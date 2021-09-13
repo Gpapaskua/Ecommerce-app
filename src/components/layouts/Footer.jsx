@@ -1,9 +1,11 @@
 import React from 'react'
+
+/**Icons */
 import { FaFacebookF, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 
-const Contact = () => {
+const Footer = () => {
     return (
-        <section className='container-fluid my-1'>
+        <footer className='container-fluid my-1'>
             <div className="container">
                 <div className="row">
             <div className="col-lg-3 col-md-6 d-flex flex-column">
@@ -46,8 +48,8 @@ const Contact = () => {
             </div>      
             </div>
             </div>
-        </section>
+        </footer>
     )
 }
 
-export default Contact
+export default Footer

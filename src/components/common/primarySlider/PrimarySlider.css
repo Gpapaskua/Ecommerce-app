@@ -1,0 +1,92 @@
+.primary-slider{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+}
+
+.primary-slide{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.primary-image{
+    width: 100%;
+    height: 100%;
+
+}
+.primary-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+}
+
+.primary-slide-preview{
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: rgba(255, 111, 97, .8);
+    top: 20%;
+    left: 20%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+}
+
+.primary-arrows{
+    position: absolute;
+    background-color: #FF6F61;
+    opacity: 0.5;
+    z-index: 30;
+    transition: all .2s ease-in-out;
+    transform: scale(0);
+}
+.primary-arrows svg{
+    pointer-events: none;
+    font-size: 2rem;
+}
+.primary-arrows polygon{
+    fill: #FFF;
+}
+
+.primary-arrows-active{
+    display: block;
+}
+
+.shop-now-button{
+    color: #FF6F61;
+    font-size: 1.1rem;
+}
+.shop-now-button svg{
+   transform: translateY(-10%);
+}
+
+.primary-slider:hover .primary-arrows{
+    transform: scale(1);
+}
+
+.shop-now-button:hover{
+    color: #FFF;
+    background-color: #FF6F61 !important;
+    border: 1px solid #FFF !important;
+}
+
+#next{
+    top: 50%;
+    right: 0;
+    
+}
+#previous{
+    top: 50%;
+    left: 0;
+}
+

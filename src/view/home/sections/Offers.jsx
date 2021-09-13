@@ -5,7 +5,7 @@ import {IoIosChatbubbles} from 'react-icons/io'
 
 const Offers = () => {
     return (
-        <section className='container-fluid my-4'>
+        <footer className='container-fluid my-4'>
             <article className='container d-flex justify-content-around  py-4' style={{gap: '1rem'}}>
                 <div className='col-sm-3 d-flex text-center flex-column justify-content-center 
                 align-items-center bg-white py-3'>
@@ -32,7 +32,7 @@ const Offers = () => {
                     <p>Lorem ipsum dolor sit amet consectetur elit</p>
                 </div>
             </article>
-        </section>
+        </footer>
     )
 }
 

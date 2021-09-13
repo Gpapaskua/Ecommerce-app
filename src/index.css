@@ -5,9 +5,10 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(232, 255, 254, .5);
 }
 
 code {
@@ -45,11 +46,18 @@ code {
 .option-icons{
   border: 1px solid #FF6F61;
   object-fit: contain;
-  
+  color: #FF6F61;
 }
 
 .option-icons svg{
-  vertical-align: baseline;
+  transform: translateY(-10%);
+  pointer-events: none;
+}
+
+.option-icons:hover{
+  cursor: pointer;
+  background-color: #FF6F61;
+  color: #FFF;
 }
 
 .offer-icons{
